@@ -10,7 +10,7 @@ function App() {
   return (
     <ThemeProvider>
       <AuthProvider>
-        <BrowserRouter basename="/Everything-For-Fishing">
+        <BrowserRouter basename="/everything-for-fishing">
           <ThemeToggle />
           <Routes>
             <Route path="/" element={<CatalogPage />} />
